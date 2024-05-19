@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/smile.jpg');
+    background-size: cover;
+    background-position:bottom ;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a{
+    background-color: rgba(0, 0, 0, 0.616);
+    
+    color: rgb(255, 228, 196);
+    display: inline-block;
+    border: 2px solid;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.5 ease-in-out;
+
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.05);
+}
+
+.intro-text {
+    background-color: rgb(81, 63, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 10rem;
+
+
+}
+
+.intro-text__textbox h3 {
+font-size: 2rem;
+text-transform: uppercase;
+margin-bottom: 1rem;
+
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url('../img/beans.jpg');
+    background-size:cover ;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality-image__link a {
+    background-color: rgba(255, 255, 255, 0.615);
+    color: rgb(10, 10, 10);
+    display: inline-block;
+    border: 2px solid rgba(244, 244, 244, 0.167);
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.5 ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.05);
+}
+
+.Quality-text {
+    background-color: rgb(0, 0, 0);
+    color: rgb(151, 151, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(235, 193, 143);
+    font-size:2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+display: inline-block;
+margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(191, 191, 191);
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: rgb(254, 254, 254);
+    transform: scale(1.1);
+}
+
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('../img/mug.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.origin-image__link a {
+    background-color: rgba(29, 29, 29, 0.616);
+    color: rgb(255, 228, 196);
+    display: inline-block;
+    border: 2px solid;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1.5s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.15);
+}
+
+.origin-image__textbox {
+    background-color: rgba(255, 255, 255, 0.324);
+    color: rgb(22, 12, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    flex-direction: column; 
+}
+
+.origin-image__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.origin-image__textbox p {
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+    
+}
